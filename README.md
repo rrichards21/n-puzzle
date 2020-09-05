@@ -3,7 +3,7 @@ N-puzzle (2x2,3x3,4x4) solution using path finding algorithms such as A*, Greedy
 
 Usage:
 
-Compile with "g++ npuzzle.cpp"
+Compile with "g++ npuzzle.cpp -o npuzzle"
 
 Modify puzzle.txt, where:
 
@@ -15,6 +15,6 @@ Modify puzzle.txt, where:
 
 ​		-If puzzle is 4x4 the number must be 4
 
-​	-The puzzle is described by its numbers according the type of the puzzle you want to work in the next lines and setting a '0' where the puzzle has a free space
+​	-The puzzle is described by its numbers according the type of the puzzle you want to work in the next lines of the file with numbers separated by a space character and setting a '0' where the puzzle has a free space for moving
 
-Ejecutar con "./a.out" si es en linux o "a.exe" en windows
+Execute in terminal with ./npuzzle if on linux or WSL  
